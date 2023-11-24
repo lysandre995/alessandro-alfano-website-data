@@ -1,1 +1,152 @@
-{}
+{
+    "name": "Alessandro Alfano",
+    "role": "Software Engineer",
+    "description": "Alessandro Alfano is a versatile, diverse background and innovative software engineer with a passion for coding. He has expertise in Oracle databases, AWS cloud environments, and a wide range of languages and frameworks. In his free time he realize little projects as videogames (majorly developed in Lua and Love2d) and web sites. Alessandro is an excellent communicator, team player, and has a great love for singing, theater, sailing, cooking, and coaching soccer. His enthusiasm is contagious, and he approaches every project with energy and creativity.",
+    "contacts": {
+        "e-mail": "alfano.alessandro@outlook.com",
+        "address": "Via del Bosco, 11 - 22070 Guanzate CO, Italy",
+        "github": "https://github.com/lysandre995/",
+        "phone": "+39 331 400 1156",
+        "linkedin": "https://www.linkedin.com/in/alessandro-alfano-a03687198/",
+        "website": "www.alessandroalfano.com"
+    },
+    "areasOfExpertise": ["Full Stack Development", "Databases", "Oracle", "AWS Cloud Environment", "Agile Development", "Software Solution Architecture", "Networking", "Container", "Microservices", "Stream Oriented Development"],
+    "workExperiences": [
+        {
+            "role": "Software Architecture",
+            "company": "YouPower AG",
+            "period": {"start": "10/2023", "end": "Present"},
+            "location": "Mezzovico, CH",
+            "tasks": [
+                "Coordination and leadership of development team activities.",
+                "Maintenance of a legacy system for reading data from remote meters and transcribing them to a timeseries database.",
+                "Handling data from meters with various technologies, such as reading modbus meters connected to a router that remaps them in TCP for processing on a Raspberry Pi.",
+                "Management of an application written in Ruby on Raspberry Pi, which reads data via TCP, processes it, and writes it to an InfluxDB timeseries database using Redis Pub/Sub.",
+                "Maintenance of a legacy management system in Ruby on Rails, including the configuration of facilities, users, network devices, and the generation of proforma and invoices.",
+                "Replacement of the legacy system with a personally designed modern system.",
+                "Implementation of a new management system with a frontend written in Angular and a backend in TypeScript, including the creation of an authentication system and role management.",
+                "Design of a microservices architecture based on Redis streams for communication.",
+                "Rewriting device reading programs in TypeScript.",
+                "Replacement of the PostgreSQL database with MongoDB to handle the timeseries part.",
+                "Implementation of an architecture based on Docker containers on Docker Swarm for scalability and load balancing."
+            ]
+
+        },
+        {
+            "role": "Full Stack Developer",
+            "company": "Forge Srl",
+            "period": {"start": "02/2022", "end": "09/2023"},
+            "location": "Varese, IT",
+            "tasks": [
+                "Created web applications with different technology stacks such as Typescript (frontend in Angular, backend in NestJS/Express), PHP",
+                "Collaborated with major software companies (like beSharp, Entopan and others) to create solutions for large international clients using Typescript, NodeJS and AWS",
+                "Contributed to the open-source project Leapp for cloud access security, and its commercial version, Leapp Team",
+                "Worked on billing flow management microservice application written in Java",
+                "Collaborated on projects related to AI, such as technical assistants, ticket classifiers and others",
+                "Worked on a PDF text extractor and clusterizer for creating a virtual library from which AI generative models can draw to construct technical responses to user requests"
+            ]
+        },
+        {
+            "role":"Full Stack Developer",
+            "company": "Arsinform Srl",
+            "period": {"start": "05/2021", "end": "01/2022"},
+            "location": "Milan, IT",
+            "tasks": [
+                "Developed custom software for industrial automation and warehouse management systems using Oracle DB and related technologies such as PL/SLQ, Forms & Reports, Apex and other"
+            ]
+        },
+        {
+            "role": "Sales Representative",
+            "company": "Kiron Spa",
+            "period": {"start": "07/2019", "end": "04/2021"},
+            "location": "Lomazzo, IT",
+            "tasks": [
+                "Sold finacial products to clients",
+                "Managed a portfolio of customers ensuring customer satisfaction and retention",
+                "Developed new business by generating leads and networking with potential customers"
+            ]
+        }
+    ],
+    "technicalSkills": {
+        "Programming/Query/Markup Languages": [
+            {"name": "Typescript/Javascript", "level": 4.5},
+            {"name": "Lua", "level": 5},
+            {"name": "C/C++", "level": 3.5},
+            {"name": "Ruby", "level": 4},
+            {"name": "PHP", "level": 3},
+            {"name": "SQL", "level": 4.5},
+            {"name": "HTML", "level": 5},
+            {"name": "CSS", "level": 4},
+            {"name": "Rust", "level": 3.5},
+            {"name": "Java", "level": 3.5}
+        ],
+        "Application frameworks": [
+            {"name": "Angular", "level": 4.5},
+            {"name": "Ruby On Rails", "level": 3},
+            {"name": "NestJS", "level": 4.5},
+            {"name": "NodeJS", "level": 4.5},
+            {"name": "RxJS", "level": 4},
+            {"name": "Love2D", "level": 5},
+            {"name": "RPGMaker", "level": 4}         
+        ],
+        "Databases": [
+            {"name": "Oracle", "level": 4.5},
+            {"name": "Postgres", "level": 4.5},
+            {"name": "MySql", "level": 4.5},
+            {"name": "Sqlite", "level": 5},
+            {"name": "DynamoDB", "level": 4},
+            {"name": "MongoDB", "level": 3.5}
+        ],
+        "Cloud Providers": [
+            {"name": "AWS", "level": 4},
+            {"name": "Azure", "level": 3},
+            {"name": "Google Cloud", "level": 2}
+        ],
+        "DevOps": [
+            {"name": "Docker", "level": 4.5},
+            {"name": "Git", "level": 4.5},
+            {"name": "CI/CD", "level": 3.5},
+            {"name": "Networking", "level": 3.5},
+            {"name": "Redis", "level": 4},
+            {"name": "Bash", "level": 4},
+            {"name": "Powershell", "level": 4},
+            {"name": "Github Actions", "level": 4}
+        ],
+        "Operative Systems": [
+            {"name": "Linux (Debian based)", "level": 5},
+            {"name": "Windows", "level": 4.5},
+            {"name": "MacOS", "level": 3.5},
+            {"name": "RouterOS", "level": 3.5}
+        ]
+    },
+    "coursesAndTraining": [
+        {"name": "AWS Software Solution Architect - Associate", "period": "11/2022", "erogator": "beSharp Srl", "erogatorLink": "https://www.besharp.it/"},
+        {"name": "Networking 101: Networking Course from Scratch", "period": "11/2023", "erogator": "udemy.com", "erogatorLink": "https://www.udemy.com/"}
+    ],
+    "interestAndHobbies": [
+        "Singing and playing in a rock band",
+        "Acting and theater",
+        "Sailing",
+        "Cooking"
+    ],
+    "personalProjects": [
+        "Developed several small video games in Ruby and Lua",
+        "Creates websites for friends, personal use and didactic purpose"
+    ],
+    "education": [
+        {"course": "Bachelor of Science in Computer Science Engineer", "institute": "Politecnico di Milano", "instituteLink": "https://www.polimit.it/", "period": {"start": "09/2020", "end": "Present"}, "location": "Milan, IT"},
+        {"course": "Master of Science in Medicine and Surgery", "institute": "University of Milan", "instituteLink": "https://www.unimi.it/", "period": {"start": "09/2014", "end": "07/2020 (Incomplete)"}, "location": "Milan, IT"},
+        {"course": "High School Degree in Classical Studies", "institute": "Liceo Classico \"Alessandro Volta\"", "instituteLink": "https://www.liceovoltacomo.edu.it/", "period": {"start": "09/2009", "end": "06/2014"}, "location": "Como, IT"}
+    ],
+    "languages": [
+        {"name": "Italian", "level": "C2"},
+        {"name": "English", "level": "C1"},
+        {"name": "French", "level": "A2"},
+        {"name": "Latin", "level": "A2"},
+        {"name": "Acient Greek", "level": "A2"},
+        {"name": "Interlingua", "level": "A2"}
+    ],
+    "profileImage": "https://raw.githubusercontent.com/lysandre995/alessandro-alfano-website-data/main/profile-img.png",
+    "signImage": "https://raw.githubusercontent.com/lysandre995/alessandro-alfano-website-data/main/sign.png",
+    "gdpr": " I authorize the processing of personal data present in the CV pursuant to Legislative Decree .Lgs. 101/2018 and of the GDPR (EU Regulation 2016/679)"
+}
