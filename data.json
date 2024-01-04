@@ -69,7 +69,8 @@
     ],
     "technicalSkills": {
         "Programming/Query/Markup Languages": [
-            {"name": "Typescript/Javascript", "level": 4.5},
+            {"name": "Java", "level": 5},
+            {"name": "Typescript/Javascript", "level": 5},
             {"name": "Lua", "level": 5},
             {"name": "C/C++", "level": 3.5},
             {"name": "Ruby", "level": 4},
@@ -77,8 +78,7 @@
             {"name": "SQL", "level": 4.5},
             {"name": "HTML", "level": 5},
             {"name": "CSS", "level": 4},
-            {"name": "Rust", "level": 3.5},
-            {"name": "Java", "level": 3.5}
+            {"name": "Rust", "level": 3.5}
         ],
         "Application frameworks": [
             {"name": "Angular", "level": 4.5},
